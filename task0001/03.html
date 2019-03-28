@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<style type="text/css">
+	*{margin:0;padding:0;list-style:none;font-family:'微软雅黑';}
+	body,#wrap,#middle-wrap,#right-wrap{
+		padding:20px;
+	}
+	#wrap,#left-wrap,#logo,#middle-wrap,#right-wrap,.l-logo{
+		border: 1px solid #999;
+	}
+	#wrap,#logo,.l-logo{
+		background:#eee;
+	}
+	#team-name,#middle-wrap,#left-wrap,#right-wrap{
+		background:#fff;
+	}
+	/*三栏并列,注意html div顺序 左，右，中*/
+	#left-wrap{
+		float:left;
+		width:200px;
+	}
+	#right-wrap{
+		float:right;		
+		width: 120px;
+	}
+	#middle-wrap{
+		margin:0 200px 0 220px;
+	}	
+	#logo{
+		width:80px;
+		height:80px;
+		margin:20px;
+		float:left;
+	}
+	
+	</style>
+    <title>ife-3</title>
+</head>
+<body>
+	<div id="wrap">
+		<div id="left-wrap">
+			<div id="logo">团队 logo80*80</div>
+			<p id="team-name">团队名称</p>
+		</div>
+		<div id="right-wrap">
+			<ul id="psr-logo">
+				<li class="l-logo">个人logo80*80</li>
+				<li class="l-logo">个人logo80*80</li>
+				<li class="l-logo">个人logo80*80</li>
+				<li class="l-logo">个人logo80*80</li>
+			</ul>
+		</div>
+		<div id="middle-wrap">
+			<div id="middle-content">重要说明 掌握position与float的概念以及在布局时的用法 任务描述 使用 HTML 与 CSS 按照 示例图（点击查看） 实现三栏式布局。 左右两栏宽度固定，中间一栏根据父元素宽度填充满，最外面的框应理解为浏览器。背景色为 #eee 区域的高度取决于三个子元素中最高的高度。</div>
+		</div>
+		
+	</div>
+	
+	
+</body>
+</html>
